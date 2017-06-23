@@ -26,6 +26,11 @@ class BirdsRoutes {
         this.router.get("/about", function (req, res) {
             res.send("About birds");
         });
+
+        this.router.route("/aruba")
+            .get((req, res) => {
+                res.send("Ba yega ARUBAAAA!!!");
+            });
     }
 }
 
