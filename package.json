@@ -2,6 +2,10 @@
   "name": "backend-cvh",
   "version": "1.0.0",
   "description": "Backend API Check-It voor Horeca",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TrapSpace/express-typescript-starter.git"
+  },
   "main": "server.js",
   "scripts": {
     "start": "npm run build && npm run watch",
@@ -14,7 +18,7 @@
     "tslint": "tslint -c tslint.json -p tsconfig.json"
   },
   "author": "Jean-Dihno Trappenberg",
-  "license": "ISC",
+  "license": "SEE LICENSE IN /LICENSE",
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
