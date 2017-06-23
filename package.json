@@ -1,7 +1,7 @@
 {
-  "name": "backend-cvh",
+  "name": "express-typescript-starter",
   "version": "1.0.0",
-  "description": "Backend API Check-It voor Horeca",
+  "description": "Simple starter for Node/Express/Typescript RESTful API",
   "repository": {
     "type": "git",
     "url": "https://github.com/TrapSpace/express-typescript-starter.git"
