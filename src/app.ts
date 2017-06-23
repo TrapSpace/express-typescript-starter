@@ -1,6 +1,6 @@
 import * as express from "express";
 import * as bodyParser from "body-parser";
-import * as logger from 'morgan';
+import * as logger from "morgan";
 import ApiRoutes_V1 from "./api/v1/index";
 
 export class ExpressApp {
@@ -16,7 +16,7 @@ export class ExpressApp {
     }
 
     private middelware() {
-        this.app.use(logger('dev'));
+        this.app.use(logger("dev"));
     }
 
     private routes() {

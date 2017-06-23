@@ -1,5 +1,5 @@
 import * as express from "express";
-import BirdsRoutes from "./routes/birds";
+import BirdsRoutes from "./birds";
 
 class ApiRoutes {
 

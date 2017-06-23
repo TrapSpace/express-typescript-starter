@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const express = require("express");
+const logger = require("morgan");
 const index_1 = require("./api/v1/index");
 class ExpressApp {
     constructor() { }
@@ -10,7 +11,9 @@ class ExpressApp {
         this.routes();
         return this.app;
     }
-    middelware() { }
+    middelware() {
+        this.app.use(logger("dev"));
+    }
     routes() {
         this.app.use("/v1", index_1.default);
     }
